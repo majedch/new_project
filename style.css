@@ -1,0 +1,208 @@
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('../polices/dayrom.eot');
+    src: url('../polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('../polices/dayrom.woff') format('woff'),
+         url('../polices/dayrom.ttf') format('truetype'),
+         url('../polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('../polices/cac_champagne-webfont.eot');
+    src: url('../polices/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../polices/cac_champagne-webfont.woff2') format('woff2'),
+         url('../polices/cac_champagne-webfont.woff') format('woff'),
+         url('../polices/cac_champagne-webfont.ttf') format('truetype'),
+         url('../polices/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    
+    font-size: 100%;
+}
+
+body{
+    
+    margin: 0;
+    padding:0;
+    background-color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#global{
+    background: url(../img/fond.jpg) repeat-x;
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    margin:auto;
+    
+}
+
+#droite{
+    position: fixed;
+    z-index: 100px;
+    width: 150px; 
+    height: 100%;
+    background: url(../img/droite.jpg) repeat-y;
+    
+}
+
+#droite p{
+    font-family: cac_champagneregular, serif;
+    font-weight: normal;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+a:hover {
+color:red;
+text-decoration:none;
+}
+
+#header{
+    position: absolute;
+    z-index: 100px;
+    top:0;
+    left:150px;
+    width: 85%;
+    height: 100px;
+    
+}
+
+.mc{
+    font-family: Dayrom, Arial, sans-serif;
+    display: inline;
+    margin-left: 5em;
+    color: wheat;
+}
+.mc1{
+    font-family: cac_champagneregular, serif;
+}
+
+#fonc{
+    
+    padding: 30px;
+    
+}
+
+.element{
+    display: inline;
+    margin: 1em;
+    color: dimgrey;
+}
+
+.imageFlottante{
+    position:absolute;
+    right: 0px;
+    top: 0;
+}
+
+
+#navig{
+    position:absolute;
+    z-index: 100px;
+    left: 150px;
+    width: 85%;
+    top:100px;
+    height: 50px;
+    background-color: cadetblue;
+    
+}
+
+#surf{
+    
+    list-style-type: none;
+    display: flex;
+	flex-wrap:nowrap;
+	justify-content:space-around;
+    
+}
+
+#surf a{
+    color: white;
+}
+
+#experience, #competence, #culture, #formation{
+    font-family: cursive;
+    color: beige;
+}
+
+#milieu{
+    position: absolute;
+    z-index: 50px;
+    left: 150px;
+    width: 85%;
+    height: 600px;
+    top:150px;
+    
+    
+}
+
+#exp{
+    
+    float: left;
+    font-size: 8px;
+    text-align: justify;
+    width: 45%;
+    max-height: 300px;
+    margin: auto;
+    padding-left: 10px;
+    overflow: auto;
+}
+#comp{
+    float: left;
+    font-size: 8px;
+    text-align: justify;
+    margin: auto;
+    width: 40%;
+    height: 300px;
+    margin: auto;
+    padding-left: 20px;
+    
+}
+#cul{
+    float: left;
+    font-size: 8px;
+    text-align: justify;
+    margin: auto;
+    width: 45%;
+    height: 300px;
+    margin: auto;
+    padding-left: 10px;
+    
+}
+#for{
+    float: left;
+    font-size: 8px;
+    text-align: justify;
+    width: 45%;
+    height: 300px;
+    margin: auto;
+    padding-left: 20px;
+}
+
+#bas{
+    position:absolute;
+    z-index: 100px;
+    left:150px;
+    width: 85%;
+    height: 50px;
+    bottom:0;
+    display: flex;
+	justify-content: space-between;
+    
+}
+.contact{
+    font-family: cursive;
+}
