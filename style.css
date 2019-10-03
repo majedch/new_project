@@ -32,7 +32,7 @@ body{
     
     margin: 0;
     padding:0;
-    background-color: white;
+    background-color: rgba(202,236,234,0.5);
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
 }
